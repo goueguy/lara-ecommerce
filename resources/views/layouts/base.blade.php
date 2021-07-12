@@ -15,9 +15,10 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/chosen.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/color-01.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/flexslider.css')}}">
     @livewireStyles
 </head>
-<body class="home-page home-01 shopping-cart page checkout">
+<body class="home-page home-01 shopping-cart page checkout detail">
 
 	@include('layouts.includes._header')
     {{$slot}}
